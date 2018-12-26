@@ -8,11 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E659B07F21D2FAA400928D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B07E21D2FAA400928D60 /* AppDelegate.swift */; };
-		E659B08121D2FAA400928D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B08021D2FAA400928D60 /* ViewController.swift */; };
-		E659B08421D2FAA400928D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E659B08221D2FAA400928D60 /* Main.storyboard */; };
 		E659B08621D2FAA500928D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659B08521D2FAA500928D60 /* Assets.xcassets */; };
 		E659B08921D2FAA500928D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E659B08721D2FAA500928D60 /* LaunchScreen.storyboard */; };
 		E659B09421D2FAA500928D60 /* DoorDashDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B09321D2FAA500928D60 /* DoorDashDemoTests.swift */; };
+		E659B0A721D2FC5200928D60 /* PickLocationOnMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A121D2FC5200928D60 /* PickLocationOnMapPresenter.swift */; };
+		E659B0A821D2FC5200928D60 /* PickLocationOnMapWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A221D2FC5200928D60 /* PickLocationOnMapWorker.swift */; };
+		E659B0A921D2FC5200928D60 /* PickLocationOnMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A321D2FC5200928D60 /* PickLocationOnMapRouter.swift */; };
+		E659B0AA21D2FC5200928D60 /* PickLocationOnMapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A421D2FC5200928D60 /* PickLocationOnMapModels.swift */; };
+		E659B0AB21D2FC5200928D60 /* PickLocationOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A521D2FC5200928D60 /* PickLocationOnMapViewController.swift */; };
+		E659B0AC21D2FC5200928D60 /* PickLocationOnMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0A621D2FC5200928D60 /* PickLocationOnMapInteractor.swift */; };
+		E659B0B321D2FC8500928D60 /* RestarantsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0AD21D2FC8500928D60 /* RestarantsListPresenter.swift */; };
+		E659B0B421D2FC8500928D60 /* RestarantsListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0AE21D2FC8500928D60 /* RestarantsListWorker.swift */; };
+		E659B0B521D2FC8500928D60 /* RestarantsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0AF21D2FC8500928D60 /* RestarantsListRouter.swift */; };
+		E659B0B621D2FC8500928D60 /* RestarantsListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0B021D2FC8500928D60 /* RestarantsListModels.swift */; };
+		E659B0B721D2FC8500928D60 /* RestarantsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0B121D2FC8500928D60 /* RestarantsListViewController.swift */; };
+		E659B0B821D2FC8500928D60 /* RestarantsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0B221D2FC8500928D60 /* RestarantsListInteractor.swift */; };
+		E659B0BA21D2FE8200928D60 /* PickLocationOnMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E659B0B921D2FE8200928D60 /* PickLocationOnMap.storyboard */; };
+		E659B0BC21D3015D00928D60 /* PickLocationOnMapRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0BB21D3015D00928D60 /* PickLocationOnMapRootView.swift */; };
+		E659B0BE21D3244000928D60 /* PickLocationOnMapRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BD21D3244000928D60 /* PickLocationOnMapRootView.xib */; };
+		E659B0C021D3400B00928D60 /* RestaurantsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E659B0BF21D3400B00928D60 /* RestaurantsList.storyboard */; };
+		E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C221D34C3100928D60 /* LocationManager.swift */; };
+		E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C421D352B800928D60 /* GlobalConstatns.swift */; };
+		E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +45,31 @@
 /* Begin PBXFileReference section */
 		E659B07B21D2FAA400928D60 /* DoorDashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E659B07E21D2FAA400928D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E659B08021D2FAA400928D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E659B08321D2FAA400928D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E659B08521D2FAA500928D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E659B08821D2FAA500928D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E659B08A21D2FAA500928D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E659B08F21D2FAA500928D60 /* DoorDashDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorDashDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E659B09321D2FAA500928D60 /* DoorDashDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashDemoTests.swift; sourceTree = "<group>"; };
 		E659B09521D2FAA500928D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E659B0A121D2FC5200928D60 /* PickLocationOnMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapPresenter.swift; sourceTree = "<group>"; };
+		E659B0A221D2FC5200928D60 /* PickLocationOnMapWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapWorker.swift; sourceTree = "<group>"; };
+		E659B0A321D2FC5200928D60 /* PickLocationOnMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapRouter.swift; sourceTree = "<group>"; };
+		E659B0A421D2FC5200928D60 /* PickLocationOnMapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapModels.swift; sourceTree = "<group>"; };
+		E659B0A521D2FC5200928D60 /* PickLocationOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapViewController.swift; sourceTree = "<group>"; };
+		E659B0A621D2FC5200928D60 /* PickLocationOnMapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapInteractor.swift; sourceTree = "<group>"; };
+		E659B0AD21D2FC8500928D60 /* RestarantsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListPresenter.swift; sourceTree = "<group>"; };
+		E659B0AE21D2FC8500928D60 /* RestarantsListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListWorker.swift; sourceTree = "<group>"; };
+		E659B0AF21D2FC8500928D60 /* RestarantsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListRouter.swift; sourceTree = "<group>"; };
+		E659B0B021D2FC8500928D60 /* RestarantsListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListModels.swift; sourceTree = "<group>"; };
+		E659B0B121D2FC8500928D60 /* RestarantsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListViewController.swift; sourceTree = "<group>"; };
+		E659B0B221D2FC8500928D60 /* RestarantsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestarantsListInteractor.swift; sourceTree = "<group>"; };
+		E659B0B921D2FE8200928D60 /* PickLocationOnMap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickLocationOnMap.storyboard; sourceTree = "<group>"; };
+		E659B0BB21D3015D00928D60 /* PickLocationOnMapRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickLocationOnMapRootView.swift; sourceTree = "<group>"; };
+		E659B0BD21D3244000928D60 /* PickLocationOnMapRootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickLocationOnMapRootView.xib; sourceTree = "<group>"; };
+		E659B0BF21D3400B00928D60 /* RestaurantsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantsList.storyboard; sourceTree = "<group>"; };
+		E659B0C221D34C3100928D60 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E659B0C421D352B800928D60 /* GlobalConstatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstatns.swift; sourceTree = "<group>"; };
+		E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +96,7 @@
 				E659B07D21D2FAA400928D60 /* DoorDashDemo */,
 				E659B09221D2FAA500928D60 /* DoorDashDemoTests */,
 				E659B07C21D2FAA400928D60 /* Products */,
+				E659B0C621D36A7900928D60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +112,12 @@
 		E659B07D21D2FAA400928D60 /* DoorDashDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E659B07E21D2FAA400928D60 /* AppDelegate.swift */,
-				E659B08021D2FAA400928D60 /* ViewController.swift */,
-				E659B08221D2FAA400928D60 /* Main.storyboard */,
+				E659B0C121D34C1B00928D60 /* Shared */,
+				E659B09E21D2FB8600928D60 /* PickLocationOnMapScene */,
+				E659B09F21D2FBBB00928D60 /* RestaurantsListScene */,
+				E659B0A021D2FBF000928D60 /* SupportingFiles */,
 				E659B08521D2FAA500928D60 /* Assets.xcassets */,
 				E659B08721D2FAA500928D60 /* LaunchScreen.storyboard */,
-				E659B08A21D2FAA500928D60 /* Info.plist */,
 			);
 			path = DoorDashDemo;
 			sourceTree = "<group>";
@@ -94,6 +129,70 @@
 				E659B09521D2FAA500928D60 /* Info.plist */,
 			);
 			path = DoorDashDemoTests;
+			sourceTree = "<group>";
+		};
+		E659B09E21D2FB8600928D60 /* PickLocationOnMapScene */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0A521D2FC5200928D60 /* PickLocationOnMapViewController.swift */,
+				E659B0A621D2FC5200928D60 /* PickLocationOnMapInteractor.swift */,
+				E659B0A121D2FC5200928D60 /* PickLocationOnMapPresenter.swift */,
+				E659B0A321D2FC5200928D60 /* PickLocationOnMapRouter.swift */,
+				E659B0A221D2FC5200928D60 /* PickLocationOnMapWorker.swift */,
+				E659B0A421D2FC5200928D60 /* PickLocationOnMapModels.swift */,
+				E659B0B921D2FE8200928D60 /* PickLocationOnMap.storyboard */,
+				E659B0BB21D3015D00928D60 /* PickLocationOnMapRootView.swift */,
+				E659B0BD21D3244000928D60 /* PickLocationOnMapRootView.xib */,
+			);
+			path = PickLocationOnMapScene;
+			sourceTree = "<group>";
+		};
+		E659B09F21D2FBBB00928D60 /* RestaurantsListScene */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0B121D2FC8500928D60 /* RestarantsListViewController.swift */,
+				E659B0B221D2FC8500928D60 /* RestarantsListInteractor.swift */,
+				E659B0AD21D2FC8500928D60 /* RestarantsListPresenter.swift */,
+				E659B0AF21D2FC8500928D60 /* RestarantsListRouter.swift */,
+				E659B0AE21D2FC8500928D60 /* RestarantsListWorker.swift */,
+				E659B0B021D2FC8500928D60 /* RestarantsListModels.swift */,
+				E659B0BF21D3400B00928D60 /* RestaurantsList.storyboard */,
+			);
+			path = RestaurantsListScene;
+			sourceTree = "<group>";
+		};
+		E659B0A021D2FBF000928D60 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E659B07E21D2FAA400928D60 /* AppDelegate.swift */,
+				E659B08A21D2FAA500928D60 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E659B0C121D34C1B00928D60 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E659B0CB21D399A500928D60 /* NetworkingService */,
+				E659B0C221D34C3100928D60 /* LocationManager.swift */,
+				E659B0C421D352B800928D60 /* GlobalConstatns.swift */,
+				E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E659B0C621D36A7900928D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E659B0CB21D399A500928D60 /* NetworkingService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkingService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +245,11 @@
 				TargetAttributes = {
 					E659B07A21D2FAA400928D60 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					E659B08E21D2FAA500928D60 = {
 						CreatedOnToolsVersion = 10.1;
@@ -177,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E659B0BE21D3244000928D60 /* PickLocationOnMapRootView.xib in Resources */,
+				E659B0BA21D2FE8200928D60 /* PickLocationOnMap.storyboard in Resources */,
+				E659B0C021D3400B00928D60 /* RestaurantsList.storyboard in Resources */,
 				E659B08921D2FAA500928D60 /* LaunchScreen.storyboard in Resources */,
 				E659B08621D2FAA500928D60 /* Assets.xcassets in Resources */,
-				E659B08421D2FAA400928D60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +303,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E659B08121D2FAA400928D60 /* ViewController.swift in Sources */,
+				E659B0B421D2FC8500928D60 /* RestarantsListWorker.swift in Sources */,
+				E659B0B821D2FC8500928D60 /* RestarantsListInteractor.swift in Sources */,
+				E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */,
+				E659B0B521D2FC8500928D60 /* RestarantsListRouter.swift in Sources */,
+				E659B0AA21D2FC5200928D60 /* PickLocationOnMapModels.swift in Sources */,
+				E659B0BC21D3015D00928D60 /* PickLocationOnMapRootView.swift in Sources */,
+				E659B0A921D2FC5200928D60 /* PickLocationOnMapRouter.swift in Sources */,
+				E659B0A821D2FC5200928D60 /* PickLocationOnMapWorker.swift in Sources */,
+				E659B0B621D2FC8500928D60 /* RestarantsListModels.swift in Sources */,
+				E659B0B321D2FC8500928D60 /* RestarantsListPresenter.swift in Sources */,
+				E659B0B721D2FC8500928D60 /* RestarantsListViewController.swift in Sources */,
+				E659B0A721D2FC5200928D60 /* PickLocationOnMapPresenter.swift in Sources */,
+				E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */,
+				E659B0AB21D2FC5200928D60 /* PickLocationOnMapViewController.swift in Sources */,
 				E659B07F21D2FAA400928D60 /* AppDelegate.swift in Sources */,
+				E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */,
+				E659B0AC21D2FC5200928D60 /* PickLocationOnMapInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E659B08221D2FAA400928D60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E659B08321D2FAA400928D60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E659B08721D2FAA500928D60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +475,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YE89MA28Y3;
-				INFOPLIST_FILE = DoorDashDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DoorDashDemo/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +494,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YE89MA28Y3;
-				INFOPLIST_FILE = DoorDashDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DoorDashDemo/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

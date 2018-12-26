@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickLocationOnMapRootView" customModule="DoorDashDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="confirmAddressButton" destination="xhr-sA-feu" id="Hdw-lH-zpd"/>
+                <outlet property="mapView" destination="Xhq-sW-KwI" id="hOA-Sa-ZL6"/>
+                <outlet property="selectedAddressLabel" destination="VbW-2H-8St" id="f7x-Kc-X08"/>
+                <outlet property="tapGestureRecognizer" destination="dZC-jW-2mp" id="Ed0-VW-zW9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ps9-jH-dVh">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSv-cV-Iue">
+                    <rect key="frame" x="107" y="30" width="161" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xhq-sW-KwI" customClass="MKMapView">
+                    <rect key="frame" x="0.0" y="59.5" width="375" height="506.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="dZC-jW-2mp" appends="YES" id="1Cy-73-48k"/>
+                    </connections>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PfC-jo-AM7">
+                    <rect key="frame" x="0.0" y="566" width="375" height="101"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P7l-as-qed">
+                            <rect key="frame" x="4" y="0.0" width="367" height="50.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="355 Wood Creek rd, Wheeling" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VbW-2H-8St">
+                                    <rect key="frame" x="86.5" y="16.5" width="194.5" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="VbW-2H-8St" firstAttribute="centerY" secondItem="P7l-as-qed" secondAttribute="centerY" id="Y5x-dd-aWj"/>
+                                <constraint firstItem="VbW-2H-8St" firstAttribute="centerX" secondItem="P7l-as-qed" secondAttribute="centerX" id="aP0-T8-zBg"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhr-sA-feu">
+                            <rect key="frame" x="0.0" y="50.5" width="375" height="50.5"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="0.12941176469999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <state key="normal" title="Confirm Address">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="confirmAddressButtonTapped:" destination="-1" eventType="touchUpInside" id="z1E-Nu-LK1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="xhr-sA-feu" secondAttribute="trailing" id="Pfm-8s-s8B"/>
+                        <constraint firstItem="xhr-sA-feu" firstAttribute="top" secondItem="P7l-as-qed" secondAttribute="bottom" id="Uwo-Hp-hX0"/>
+                        <constraint firstItem="xhr-sA-feu" firstAttribute="leading" secondItem="PfC-jo-AM7" secondAttribute="leading" id="clW-bK-tT6"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7Gg-vx-WbV" firstAttribute="trailing" secondItem="PfC-jo-AM7" secondAttribute="trailing" id="3jb-OO-uqj"/>
+                <constraint firstItem="7Gg-vx-WbV" firstAttribute="trailing" secondItem="Xhq-sW-KwI" secondAttribute="trailing" id="CGx-aq-tdT"/>
+                <constraint firstItem="Xhq-sW-KwI" firstAttribute="leading" secondItem="7Gg-vx-WbV" secondAttribute="leading" id="FbM-Qv-oSa"/>
+                <constraint firstItem="7Gg-vx-WbV" firstAttribute="bottom" secondItem="PfC-jo-AM7" secondAttribute="bottom" id="Nth-t9-Pz6"/>
+                <constraint firstItem="PfC-jo-AM7" firstAttribute="leading" secondItem="7Gg-vx-WbV" secondAttribute="leading" id="S3V-gj-zlY"/>
+                <constraint firstItem="Xhq-sW-KwI" firstAttribute="height" secondItem="PfC-jo-AM7" secondAttribute="height" multiplier="5:1" id="SE5-tH-ogU"/>
+                <constraint firstItem="PfC-jo-AM7" firstAttribute="top" secondItem="Xhq-sW-KwI" secondAttribute="bottom" id="YRU-jI-4dB"/>
+                <constraint firstItem="Xhq-sW-KwI" firstAttribute="top" secondItem="MSv-cV-Iue" secondAttribute="bottom" constant="8" id="gF4-uD-iU7"/>
+                <constraint firstItem="MSv-cV-Iue" firstAttribute="top" secondItem="7Gg-vx-WbV" secondAttribute="top" constant="10" id="hZr-2y-lb4"/>
+                <constraint firstItem="MSv-cV-Iue" firstAttribute="centerX" secondItem="7Gg-vx-WbV" secondAttribute="centerX" id="zZC-BY-Vnt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="7Gg-vx-WbV"/>
+            <point key="canvasLocation" x="141.59999999999999" y="-588.75562218890559"/>
+        </view>
+        <tapGestureRecognizer id="dZC-jW-2mp">
+            <connections>
+                <action selector="handleTapOnMap:" destination="-1" id="1nD-Qi-mWn"/>
+                <outlet property="delegate" destination="-1" id="6sn-qY-pnJ"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
