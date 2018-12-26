@@ -10,7 +10,7 @@ import Foundation
 
 extension RestAPICallerService: SharedInstanceInterface {
 	
-	func getRestaurantsListForLocation(requestModel: GetRestaurantsListRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: GetRestaurantsListResponseModelList) {
+	func getRestaurantsListForLocation(requestModel: GetRestaurantsListRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: GetRestaurantsListResponseModel) {
 		
 		guard let lat = requestModel.lat, let long = requestModel.long else {
 			return

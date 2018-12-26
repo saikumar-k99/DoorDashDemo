@@ -17,10 +17,8 @@ final class NetworkManager {
 	}
 	
 	static func shared() -> SharedInstanceInterface {
-		var result: SharedInstanceInterface? = nil
+		NetworkManager.sharedInstanceInterface = RestAPICallerService()
 		
-		NetworkManager.sharedInstanceInterface = MessagingAws()
-		
-		return result!
+		return sharedInstanceInterface!
 	}
 }

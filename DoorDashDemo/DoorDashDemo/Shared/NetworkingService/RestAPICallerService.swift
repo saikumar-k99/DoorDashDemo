@@ -52,7 +52,7 @@ class RestAPICallerService: RestAPICallerServiceBase {
 			
 			do {
 				let decoder = JSONDecoder()
-				let responseCodableModel = try decoder.decode(T.self, from: data)
+				let responseCodableModel = try decoder.decode(Array<T>.self, from: data)
 				self.callSuccessCompletionOnMainThread(json: responseCodableModel, completion: successCompletion)
 				
 			} catch {

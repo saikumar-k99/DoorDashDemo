@@ -25,11 +25,11 @@ class PickLocationOnMapInteractor: PickLocationOnMapBusinessLogic, PickLocationO
   
   // MARK: Do something
 	func getNearByRestaurantsList(locationModel: GetRestaurantsListRequestModel) {
-		
-		var responseModel = GetRestaurantsListResponseModelList()
+		worker = PickLocationOnMapWorker()
+		let responseModel = GetRestaurantsListResponseModel()
 		worker?.getRestaurantsList(requestModel: locationModel, responseModel: responseModel, closure: { (response) in
 		
-			presenter.
+			self.presenter?.present(response: response as Any)
 		})
 	}
 	

@@ -17,15 +17,15 @@ struct GetRestaurantsListRequestModel {
 	var long: String?
 }
 
-struct GetRestaurantsListResponseModelList: Codable {
-	var restaurantsList: [GetRestaurantsListResponseModel]?
-}
+//struct GetRestaurantsListResponseModelList: Codable {
+//	var restaurantsList: [GetRestaurantsListResponseModel]?
+//}
 
 struct GetRestaurantsListResponseModel: Codable {
 	var id: Int?
 	var name: String?
 	var description: String?
-	var delivery_fee: String?
+	var delivery_fee: Int?
 	var cover_img_url: String?
-	var asap_time: String?
+	var asap_time: Int?
 }

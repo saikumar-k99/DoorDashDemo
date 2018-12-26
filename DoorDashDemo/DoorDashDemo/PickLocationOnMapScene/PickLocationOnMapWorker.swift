@@ -14,10 +14,10 @@ import UIKit
 
 class PickLocationOnMapWorker {
 	
-	func getRestaurantsList(requestModel: GetRestaurantsListRequestModel, responseModel: GetRestaurantsListResponseModelList, closure: @escaping (Any?) -> Void) {
+	func getRestaurantsList(requestModel: GetRestaurantsListRequestModel, responseModel: GetRestaurantsListResponseModel, closure: @escaping (Any?) -> Void) {
 		
 		let successCompletion = { (_ json: Any?) -> Void in
-			if let restaurantsList = json as? GetRestaurantsListResponseModelList {
+			if let restaurantsList = json as? [GetRestaurantsListResponseModel] {
 					closure(restaurantsList)
 			} else {
 				closure(NSError(domain: "", code: 999, userInfo: nil))

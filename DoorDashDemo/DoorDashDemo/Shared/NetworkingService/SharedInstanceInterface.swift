@@ -14,5 +14,5 @@ protocol SharedInstanceInterface {
 	typealias RestAPIErrorCompletionBlock = (_ error: Error?) -> Void
 	typealias RestAPIAdditionalHeaderValue = (headerField: String, headerValue: String)
 	
-	func getRestaurantsListForLocation(requestModel: GetRestaurantsListRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: GetRestaurantsListResponseModelList)
+	func getRestaurantsListForLocation(requestModel: GetRestaurantsListRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: GetRestaurantsListResponseModel)
 }

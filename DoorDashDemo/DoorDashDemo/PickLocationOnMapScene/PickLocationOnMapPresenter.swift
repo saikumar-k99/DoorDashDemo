@@ -23,8 +23,8 @@ class PickLocationOnMapPresenter: PickLocationOnMapPresentationLogic {
   
 	func present(response: Any) {
 		switch response {
-		case is GetRestaurantsListResponseModelList:
-			guard let responseModel = response as? GetRestaurantsListResponseModelList else {
+		case is [GetRestaurantsListResponseModel]:
+			guard let responseModel = response as? [GetRestaurantsListResponseModel] else {
 				return
 			}
 			

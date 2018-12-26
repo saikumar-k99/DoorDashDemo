@@ -13,7 +13,7 @@
 import UIKit
 
 protocol PickLocationOnMapRoutingLogic {
-	func navigateToRestaurantsListScene(response: GetRestaurantsListResponseModelList)
+	func navigateToRestaurantsListScene(response: [GetRestaurantsListResponseModel])
 }
 
 class PickLocationOnMapRouter: NSObject, PickLocationOnMapRoutingLogic {
@@ -22,9 +22,10 @@ class PickLocationOnMapRouter: NSObject, PickLocationOnMapRoutingLogic {
   
   // MARK: Routing
 	
-	func navigateToRestaurantsListScene(response: GetRestaurantsListResponseModelList) {
+	func navigateToRestaurantsListScene(response: [GetRestaurantsListResponseModel]) {
 		let destination = RestarantsListViewController.getInstance()
-		destination.dataSource = response.restaurantsList
+		destination.dataSource = response
+
 		self.viewController?.navigationController?.pushViewController(destination, animated: true)
 	}
 }
