@@ -13,4 +13,21 @@
 import UIKit
 
 class PickLocationOnMapWorker {
+	
+	func getRestaurantsList(requestModel: GetRestaurantsListRequestModel, responseModel: GetRestaurantsListResponseModelList, closure: @escaping (Any?) -> Void) {
+		
+		let successCompletion = { (_ json: Any?) -> Void in
+			if let restaurantsList = json as? GetRestaurantsListResponseModelList {
+					closure(restaurantsList)
+			} else {
+				closure(NSError(domain: "", code: 999, userInfo: nil))
+			}
+		}
+		
+		let errorCompletion = { (error: Error?) -> Void in
+			closure(error)
+		}
+		
+		NetworkManager.shared().getRestaurantsListForLocation(requestModel: requestModel, successCompletion: successCompletion, errorCompletion: errorCompletion, responseModel: responseModel)
+	}
 }

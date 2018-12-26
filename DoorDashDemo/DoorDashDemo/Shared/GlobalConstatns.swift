@@ -9,6 +9,8 @@
 import Foundation
 import MapKit
 
+let baseURL = "https://api.doordash.com/"
+
 let defaultLattitude = 41.8781
 let defaultLongitude = 87.6298
 let defaultLocationCoordinates = CLLocationCoordinate2D(latitude: defaultLattitude, longitude: defaultLongitude)

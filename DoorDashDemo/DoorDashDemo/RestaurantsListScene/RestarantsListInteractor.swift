@@ -12,30 +12,13 @@
 
 import UIKit
 
-protocol RestarantsListBusinessLogic
-{
-  func doSomething(request: RestarantsList.Something.Request)
+protocol RestarantsListBusinessLogic {
 }
 
-protocol RestarantsListDataStore
-{
-  //var name: String { get set }
+protocol RestarantsListDataStore {
 }
 
-class RestarantsListInteractor: RestarantsListBusinessLogic, RestarantsListDataStore
-{
+class RestarantsListInteractor: RestarantsListBusinessLogic, RestarantsListDataStore {
   var presenter: RestarantsListPresentationLogic?
   var worker: RestarantsListWorker?
-  //var name: String = ""
-  
-  // MARK: Do something
-  
-  func doSomething(request: RestarantsList.Something.Request)
-  {
-    worker = RestarantsListWorker()
-    worker?.doSomeWork()
-    
-    let response = RestarantsList.Something.Response()
-    presenter?.presentSomething(response: response)
-  }
 }

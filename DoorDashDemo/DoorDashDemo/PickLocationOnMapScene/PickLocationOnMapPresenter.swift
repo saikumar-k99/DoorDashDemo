@@ -13,7 +13,7 @@
 import UIKit
 
 protocol PickLocationOnMapPresentationLogic {
-  func presentSomething(response: PickLocationOnMap.Something.Response)
+  func present(response: Any)
 }
 
 class PickLocationOnMapPresenter: PickLocationOnMapPresentationLogic {
@@ -21,7 +21,19 @@ class PickLocationOnMapPresenter: PickLocationOnMapPresentationLogic {
   
   // MARK: Do something
   
-  func presentSomething(response: PickLocationOnMap.Something.Response) {
-    let viewModel = PickLocationOnMap.Something.ViewModel()
-  }
+	func present(response: Any) {
+		switch response {
+		case is GetRestaurantsListResponseModelList:
+			guard let responseModel = response as? GetRestaurantsListResponseModelList else {
+				return
+			}
+			
+			viewController?.getRestaurantsListComplete(response: responseModel)
+			
+		case is Error:
+			viewController?.displayNetworkError()
+		default:
+			viewController?.displayNetworkError()
+		}
+	}
 }

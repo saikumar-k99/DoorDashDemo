@@ -13,6 +13,7 @@
 import UIKit
 
 protocol PickLocationOnMapBusinessLogic {
+		func getNearByRestaurantsList(locationModel: GetRestaurantsListRequestModel)
 }
 
 protocol PickLocationOnMapDataStore {
@@ -23,11 +24,13 @@ class PickLocationOnMapInteractor: PickLocationOnMapBusinessLogic, PickLocationO
   var worker: PickLocationOnMapWorker?
   
   // MARK: Do something
-  
-  func doSomething(request: PickLocationOnMap.Something.Request) {
-    worker = PickLocationOnMapWorker()
-    
-    let response = PickLocationOnMap.Something.Response()
-    presenter?.presentSomething(response: response)
-  }
+	func getNearByRestaurantsList(locationModel: GetRestaurantsListRequestModel) {
+		
+		var responseModel = GetRestaurantsListResponseModelList()
+		worker?.getRestaurantsList(requestModel: locationModel, responseModel: responseModel, closure: { (response) in
+		
+			presenter.
+		})
+	}
+	
 }

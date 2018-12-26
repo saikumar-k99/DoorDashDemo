@@ -12,9 +12,5 @@
 
 import UIKit
 
-class RestarantsListWorker
-{
-  func doSomeWork()
-  {
-  }
+class RestarantsListWorker {
 }

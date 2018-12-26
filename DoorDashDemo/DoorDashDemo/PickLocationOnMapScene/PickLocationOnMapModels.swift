@@ -12,15 +12,20 @@
 
 import UIKit
 
-enum PickLocationOnMap {
-  // MARK: Use cases
-  
-  enum Something {
-    struct Request {
-    }
-    struct Response {
-    }
-    struct ViewModel {
-    }
-  }
+struct GetRestaurantsListRequestModel {
+	var lat: String?
+	var long: String?
+}
+
+struct GetRestaurantsListResponseModelList: Codable {
+	var restaurantsList: [GetRestaurantsListResponseModel]?
+}
+
+struct GetRestaurantsListResponseModel: Codable {
+	var id: Int?
+	var name: String?
+	var description: String?
+	var delivery_fee: String?
+	var cover_img_url: String?
+	var asap_time: String?
 }

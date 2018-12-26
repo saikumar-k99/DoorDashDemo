@@ -12,20 +12,9 @@
 
 import UIKit
 
-protocol RestarantsListPresentationLogic
-{
-  func presentSomething(response: RestarantsList.Something.Response)
+protocol RestarantsListPresentationLogic {
 }
 
-class RestarantsListPresenter: RestarantsListPresentationLogic
-{
+class RestarantsListPresenter: RestarantsListPresentationLogic {
   weak var viewController: RestarantsListDisplayLogic?
-  
-  // MARK: Do something
-  
-  func presentSomething(response: RestarantsList.Something.Response)
-  {
-    let viewModel = RestarantsList.Something.ViewModel()
-    viewController?.displaySomething(viewModel: viewModel)
-  }
 }

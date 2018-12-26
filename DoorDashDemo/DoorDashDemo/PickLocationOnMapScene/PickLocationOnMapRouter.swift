@@ -12,18 +12,19 @@
 
 import UIKit
 
-@objc protocol PickLocationOnMapRoutingLogic{
+protocol PickLocationOnMapRoutingLogic {
+	func navigateToRestaurantsListScene(response: GetRestaurantsListResponseModelList)
 }
 
-protocol PickLocationOnMapDataPassing
-{
-  var dataStore: PickLocationOnMapDataStore? { get }
-}
-
-class PickLocationOnMapRouter: NSObject, PickLocationOnMapRoutingLogic, PickLocationOnMapDataPassing {
+class PickLocationOnMapRouter: NSObject, PickLocationOnMapRoutingLogic {
   weak var viewController: PickLocationOnMapViewController?
   var dataStore: PickLocationOnMapDataStore?
   
   // MARK: Routing
 	
+	func navigateToRestaurantsListScene(response: GetRestaurantsListResponseModelList) {
+		let destination = RestarantsListViewController.getInstance()
+		destination.dataSource = response.restaurantsList
+		self.viewController?.navigationController?.pushViewController(destination, animated: true)
+	}
 }

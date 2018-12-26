@@ -14,11 +14,13 @@ import UIKit
 import CoreLocation
 
 protocol PickLocationOnMapDisplayLogic: class {
+	func displayNetworkError()
+	func getRestaurantsListComplete(response: GetRestaurantsListResponseModelList)
 }
 
 class PickLocationOnMapViewController: UIViewController, PickLocationOnMapDisplayLogic {
   var interactor: PickLocationOnMapBusinessLogic?
-  var router: (NSObjectProtocol & PickLocationOnMapRoutingLogic & PickLocationOnMapDataPassing)?
+  var router: (NSObjectProtocol & PickLocationOnMapRoutingLogic)?
 
 	
   // MARK: Object lifecycle
@@ -68,10 +70,19 @@ extension PickLocationOnMapViewController :PickLocationMapViewDelegate {
 	}
 	
 	func confirmAddressTapped(selectedLocation: CLLocation) {
-		
+		let requestModel = GetRestaurantsListRequestModel.init(lat: String(selectedLocation.coordinate.latitude), long: String(selectedLocation.coordinate.longitude))
+		interactor?.getNearByRestaurantsList(locationModel: requestModel)
 	}
 	
 	func loadLocationFailure() {
 		showErrorAlert()
+	}
+	
+	func displayNetworkError() {
+		showErrorAlert()
+	}
+	
+	func getRestaurantsListComplete(response: GetRestaurantsListResponseModelList) {
+		router?.navigateToRestaurantsListScene(response: response)
 	}
 }

@@ -30,6 +30,10 @@
 		E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C221D34C3100928D60 /* LocationManager.swift */; };
 		E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C421D352B800928D60 /* GlobalConstatns.swift */; };
 		E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */; };
+		E697A95221D3FEBD001C67EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95121D3FEBD001C67EE /* NetworkManager.swift */; };
+		E697A95421D3FF56001C67EE /* RestAPICallerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95321D3FF56001C67EE /* RestAPICallerService.swift */; };
+		E697A95621D3FFE1001C67EE /* SharedInstanceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95521D3FFE1001C67EE /* SharedInstanceInterface.swift */; };
+		E697A95821D408FB001C67EE /* RestAPICallerServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95721D408FB001C67EE /* RestAPICallerServiceExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		E659B0C221D34C3100928D60 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E659B0C421D352B800928D60 /* GlobalConstatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstatns.swift; sourceTree = "<group>"; };
 		E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extensions.swift"; sourceTree = "<group>"; };
+		E697A95121D3FEBD001C67EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E697A95321D3FF56001C67EE /* RestAPICallerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPICallerService.swift; sourceTree = "<group>"; };
+		E697A95521D3FFE1001C67EE /* SharedInstanceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedInstanceInterface.swift; sourceTree = "<group>"; };
+		E697A95721D408FB001C67EE /* RestAPICallerServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPICallerServiceExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +199,10 @@
 		E659B0CB21D399A500928D60 /* NetworkingService */ = {
 			isa = PBXGroup;
 			children = (
+				E697A95121D3FEBD001C67EE /* NetworkManager.swift */,
+				E697A95321D3FF56001C67EE /* RestAPICallerService.swift */,
+				E697A95521D3FFE1001C67EE /* SharedInstanceInterface.swift */,
+				E697A95721D408FB001C67EE /* RestAPICallerServiceExtension.swift */,
 			);
 			path = NetworkingService;
 			sourceTree = "<group>";
@@ -307,16 +319,20 @@
 				E659B0B821D2FC8500928D60 /* RestarantsListInteractor.swift in Sources */,
 				E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */,
 				E659B0B521D2FC8500928D60 /* RestarantsListRouter.swift in Sources */,
+				E697A95621D3FFE1001C67EE /* SharedInstanceInterface.swift in Sources */,
+				E697A95221D3FEBD001C67EE /* NetworkManager.swift in Sources */,
 				E659B0AA21D2FC5200928D60 /* PickLocationOnMapModels.swift in Sources */,
 				E659B0BC21D3015D00928D60 /* PickLocationOnMapRootView.swift in Sources */,
 				E659B0A921D2FC5200928D60 /* PickLocationOnMapRouter.swift in Sources */,
 				E659B0A821D2FC5200928D60 /* PickLocationOnMapWorker.swift in Sources */,
 				E659B0B621D2FC8500928D60 /* RestarantsListModels.swift in Sources */,
 				E659B0B321D2FC8500928D60 /* RestarantsListPresenter.swift in Sources */,
+				E697A95821D408FB001C67EE /* RestAPICallerServiceExtension.swift in Sources */,
 				E659B0B721D2FC8500928D60 /* RestarantsListViewController.swift in Sources */,
 				E659B0A721D2FC5200928D60 /* PickLocationOnMapPresenter.swift in Sources */,
 				E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */,
 				E659B0AB21D2FC5200928D60 /* PickLocationOnMapViewController.swift in Sources */,
+				E697A95421D3FF56001C67EE /* RestAPICallerService.swift in Sources */,
 				E659B07F21D2FAA400928D60 /* AppDelegate.swift in Sources */,
 				E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */,
 				E659B0AC21D2FC5200928D60 /* PickLocationOnMapInteractor.swift in Sources */,
