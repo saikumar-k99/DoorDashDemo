@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class restaurantTableViewCell: UITableViewCell {
 	
 	@IBOutlet var restaurantImageview: UIImageView!

@@ -17,10 +17,6 @@ struct GetRestaurantsListRequestModel {
 	var long: String?
 }
 
-//struct GetRestaurantsListResponseModelList: Codable {
-//	var restaurantsList: [GetRestaurantsListResponseModel]?
-//}
-
 struct GetRestaurantsListResponseModel: Codable {
 	var id: Int?
 	var name: String?
