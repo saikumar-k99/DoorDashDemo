@@ -31,7 +31,6 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab-explore" translatesAutoresizingMaskIntoConstraints="NO" id="rlZ-jz-dKk">
                                                     <rect key="frame" x="10" y="35.5" width="80" height="60"/>
-                                                    <color key="backgroundColor" red="0.066633300009999993" green="0.69437385129999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="V1y-0d-vVq"/>
                                                         <constraint firstAttribute="width" constant="80" id="aEN-lh-wKY"/>

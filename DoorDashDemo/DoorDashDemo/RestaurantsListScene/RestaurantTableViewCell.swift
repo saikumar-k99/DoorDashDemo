@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Kingfisher
 
 class restaurantTableViewCell: UITableViewCell {
 	
@@ -32,6 +32,13 @@ class restaurantTableViewCell: UITableViewCell {
 			return
 		}
 		estimatedTimeToDelivery.text = "\(deliveryTime) min"
+		
+		guard let urlString = cellModel.cover_img_url else {
+			return
+		}
+		
+		let imageURL = URL(string: urlString)
+		restaurantImageview.kf.setImage(with: imageURL)
 		
 	}
 }

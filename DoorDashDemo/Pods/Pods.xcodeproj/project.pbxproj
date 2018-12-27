@@ -13,25 +13,24 @@
 		1BE1EF709EB76850BBD8104B8C398226 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130118D1DD71F872E369DACBB4F03DFF /* ImageView+Kingfisher.swift */; };
 		1D395973EB9BD39B9BE62B403763CCA2 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBC55A78551BA5AC87A6167FCE146BE /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		207632B2032C358C58AA184F902724AE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7630D7DBFBDB5634DD9D39C80E9BE4 /* Image.swift */; };
+		237ECC2F631E2AF3DBCD470938682F96 /* Pods-DoorDashDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4894F04E547DBF48DA8A315A00C4B /* Pods-DoorDashDemo-dummy.m */; };
+		2C9055396FF0DE3E2474CED3086700F8 /* Pods-DoorDashDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C294B5A9A45936C19CFD14285F434 /* Pods-DoorDashDemoTests-dummy.m */; };
 		423D8298483B24AA6C75ACA297D7BD37 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF76291757B39ACCC370A5C8245B44 /* ExtensionHelpers.swift */; };
 		50746329F3446665ED31A28E8B29BC3E /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F85389195CF6BCB3D53809847C044 /* ImageDataProvider.swift */; };
+		50A7913BFC405D5DE924EF41B4F90473 /* Pods-DoorDashDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C61CC2C86664A80F78BC0E682D96296 /* Pods-DoorDashDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		515D6166D8ABB2E5C98D7AB8ED7F27D6 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81B64792AA50B7C51EFBDE80806C21E /* Indicator.swift */; };
 		533B3153574B342D8C62AEB0F416E736 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67066D79BBD72124B1FE9B40F702CCD5 /* ImagePrefetcher.swift */; };
 		53951A8305004E8454C43567C91F2987 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3421C0901E0DA8916B4F4616BA1F3 /* Kingfisher.swift */; };
-		53B4054E55F66EAC128D8FF0EDA45A4E /* Pods-DoorDashDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C61CC2C86664A80F78BC0E682D96296 /* Pods-DoorDashDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54D9DBAA0A49132AE5FEE41E608A1C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		5AE1BA95A1D82877576383170CCC0FE0 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E2A8101E13E7BCD2ED93434B1C763 /* KingfisherOptionsInfo.swift */; };
 		5C62A550761B472E771D620E2EBFF9CF /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0934FCBD0D622FC9E8D1C22B1D831A /* Placeholder.swift */; };
 		5F3AD5B5DAC7DD8A263B8A223025C00B /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E05D20D286874AF09B7714A875C4023 /* AuthenticationChallengeResponsable.swift */; };
 		60BBE0D9BCC1ED4D795304401F8C2624 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D7B705BD0E040F75A80B837E76CD7 /* GIFAnimatedImage.swift */; };
-		622D74912424023872C0C89BF0178DEC /* Pods-DoorDashDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4894F04E547DBF48DA8A315A00C4B /* Pods-DoorDashDemo-dummy.m */; };
 		62A584A914538F0EB599713B138A0EA8 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086889BA3F4B5BDBC8671B90ECA42779 /* ImageFormat.swift */; };
 		67A2647E9CE3B839B89133E74CD0616F /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4D3A6C6F4BD92CC9851A05CB492E62 /* FormatIndicatedCacheSerializer.swift */; };
 		697A98416CB308BE8495962BCDA0FE59 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED968253ED293C0614396035C114324 /* SessionDataTask.swift */; };
 		7ADE0257EECCD15819802C9266775E4F /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DC7FF017DF2032C060C534DACD283F /* AnimatedImageView.swift */; };
 		7B17DA648BB74C7EB11048FD6ED63A72 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E28FD3398A9A42EA0DB467EBD8372 /* RequestModifier.swift */; };
 		81808CBD4E947BEB4C7278E20AA8D9C1 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0DD41405B465AB38DDA3B3FFFA7AB /* MemoryStorage.swift */; };
-		8385F7ECC8D50FB5D6F2CC61A3067E27 /* Pods-DoorDashDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C294B5A9A45936C19CFD14285F434 /* Pods-DoorDashDemoTests-dummy.m */; };
 		8C3E0CF8C9B01846EC02B3D7C786316B /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9E5428605D6A70F1301538991ABC5 /* ImageDataProcessor.swift */; };
 		8D57ACC7DD2ECD9A7B063412AF9D961C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2898A3079ACC8D8FE4D3F1AB94BD3D /* Storage.swift */; };
 		8F184D0E60C1490B8F36CEAF886C028B /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7BC06D3DCA53033CB2E6FEC1B4090 /* Box.swift */; };
@@ -40,17 +39,19 @@
 		9ECA50A13546122942CFEFE794F0A308 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A7A5B9495BF4FF4900DB466875565E /* Runtime.swift */; };
 		9F1549FBC920C0510FDDABC10EEE4675 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D9D27F4569AAB3C222CF41882F5D99 /* Result.swift */; };
 		A1B91D46C89B76F0E682D6F4A5CED130 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDE327EB19C281669E6E20D29074DD /* ImageDownloader.swift */; };
+		A2541D47C4E1D6B60E11667B6A3D1C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 		A3D24D6933EA4713D23687A25A00C43E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A0496807E397C2A00A6153C25F59E0 /* ImageProcessor.swift */; };
 		A41FDDA17D29E32247458B1FB64025FE /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F7D69B9E85B96FAF8620EB694A64C3 /* Kingfisher-dummy.m */; };
 		ADFBA943AAC6CE1CCDA9310598AC86C6 /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1338F5BBF634675968E6ED697AF3568C /* ImageDrawing.swift */; };
 		B348EA38BC61742B185751F21437C17F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45720B2770AEADA1AF3B1D37195F7A45 /* Resource.swift */; };
+		B5A7CABA91D043092282B1A9902E9F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
+		B78D81A373BE5D554B232249506E7BE5 /* Pods-DoorDashDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9240537C8F2FF6C4D035728CD6D4861F /* Pods-DoorDashDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDDEC880F132227FB231F803F0394AE9 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD1A366D1D4C525D00722F7B8706F9 /* UIButton+Kingfisher.swift */; };
 		C168C548B817A5F00DBD2C2FF7FCA3F9 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC186D214AD5456C248120C0B0E91E0C /* ImageCache.swift */; };
 		C459543344FBD4BD32D8A231D057E886 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D80272A6B5FE0CA5B4B5383B584374 /* Deprecated.swift */; };
 		C6280622C3171E388C2A3AB7F1768AAD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC861A5C0E0441C36234F27BEE5F1FCF /* CFNetwork.framework */; };
 		C7D67F418F1BF1785D712346BF05B835 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE26ACAA555001715F0499BF78CBF3 /* CallbackQueue.swift */; };
 		C8030489108E91B31DA588E53CBFF4F1 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE480FA81C806617338B8878D70E36 /* DiskStorage.swift */; };
-		CAC45E9C43A42260077575D1BCEC757E /* Pods-DoorDashDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9240537C8F2FF6C4D035728CD6D4861F /* Pods-DoorDashDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBBDCDA0A7E7A6B747020AB6F436B426 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9323BD9D98234180A1DFA8DF64ACDA /* Source.swift */; };
 		D748FB03D2861A537C9DF38BE683E714 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E24AAB02C75C63461154BFEAF6DBBDD /* SessionDelegate.swift */; };
 		DA0D7CFAE48279C703FC6F349D588CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
@@ -61,18 +62,17 @@
 		ED0D76A405BD00B6E361375E23935BD4 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1650CC5896F20751B91D785488F906 /* Filter.swift */; };
 		F33E3C00661988376FFF1C078E1DDAC9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDBD1D43F94A70E7FC8AE7FBAB128FF /* Accelerate.framework */; };
 		F4A6C324BBD17C1ACD9BBFC28D9F83FC /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E8E43E9D1DF913CB938C8BD00203D7A /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F59A62EE7727E5F434ECEE4D1615365D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A22DC9EF09662814715BFEFF50581E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		542C4C92602B5D830D564796981EFA74 /* PBXContainerItemProxy */ = {
+		3D797E2E0E18F1DAF87EF3B9A71430FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4B1925466454771C60808E479D76DEEA;
+			remoteGlobalIDString = 7FFD1A1A1E9F6F9244A48B945966CFF9;
 			remoteInfo = "Pods-DoorDashDemo";
 		};
-		C661FFF4FF4C7B2645A69AAC15134FB2 /* PBXContainerItemProxy */ = {
+		FD20F45C137171347C190019A8E89FBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -162,6 +162,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15A7D62BAD3AE09B683DDB75018F01A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A7CABA91D043092282B1A9902E9F5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		383E911328EDD1F9B0DE2D2AF1A610C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,19 +180,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D0361D99FD29844A94FF15BAA3F1EC2 /* Frameworks */ = {
+		82C057140602FFC4CDC79ACAAA0FBBEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F59A62EE7727E5F434ECEE4D1615365D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5571D2476A4ED06F910C5F6B8270203 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54D9DBAA0A49132AE5FEE41E608A1C5A /* Foundation.framework in Frameworks */,
+				A2541D47C4E1D6B60E11667B6A3D1C06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,11 +353,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30B8224ED95210DFC000F60E0A3697F1 /* Headers */ = {
+		40E1D5A68C2905B9DB32B96C6525F29F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B4054E55F66EAC128D8FF0EDA45A4E /* Pods-DoorDashDemo-umbrella.h in Headers */,
+				50A7913BFC405D5DE924EF41B4F90473 /* Pods-DoorDashDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D77E455BC8D9304CDBCAE57091DEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78D81A373BE5D554B232249506E7BE5 /* Pods-DoorDashDemoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,53 +378,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A145B8B70D699847B15B612A80B0B69C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAC45E9C43A42260077575D1BCEC757E /* Pods-DoorDashDemoTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4B1925466454771C60808E479D76DEEA /* Pods-DoorDashDemo */ = {
+		0FECF8076D5CB3193457FBB7FBF88D21 /* Pods-DoorDashDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0220FB56EC996F4D0F5A2FA6AA231C7 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemo" */;
+			buildConfigurationList = A7CA8A8DA980B95199E06330A3366910 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemoTests" */;
 			buildPhases = (
-				30B8224ED95210DFC000F60E0A3697F1 /* Headers */,
-				56BF9B117A5D172B68093ED9091B9C14 /* Sources */,
-				E5571D2476A4ED06F910C5F6B8270203 /* Frameworks */,
-				CC0F5F04051FB4BF1662EAC449FC2D4C /* Resources */,
+				436D77E455BC8D9304CDBCAE57091DEF /* Headers */,
+				D625975F5FEA716DF0357E1B5FDD5DD5 /* Sources */,
+				15A7D62BAD3AE09B683DDB75018F01A3 /* Frameworks */,
+				A799AD5978297662B24A6023DABE5D25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-DoorDashDemo";
-			productName = "Pods-DoorDashDemo";
-			productReference = 3E99E5C9D3776E20BE208410468CC986 /* Pods_DoorDashDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		70FE69D778493034DCD577C7285F89E0 /* Pods-DoorDashDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 360D2042E846F5B48533777EC1091621 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemoTests" */;
-			buildPhases = (
-				A145B8B70D699847B15B612A80B0B69C /* Headers */,
-				B09CE46B2B6B32C956B0CDFA6D63CC05 /* Sources */,
-				9D0361D99FD29844A94FF15BAA3F1EC2 /* Frameworks */,
-				7AB481E3714846728EB9E2CDFB4CDB32 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAC7AA795740B8E8C55731DC36EF5578 /* PBXTargetDependency */,
-				8B0D8B3A0FA2E9A7D2EF0EE097F5B1E5 /* PBXTargetDependency */,
+				11CB814964CCC63033EF1FBD9D35EE2E /* PBXTargetDependency */,
 			);
 			name = "Pods-DoorDashDemoTests";
 			productName = "Pods-DoorDashDemoTests";
 			productReference = 817CF48E18DCFF20FD18910E46E2B988 /* Pods_DoorDashDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FFD1A1A1E9F6F9244A48B945966CFF9 /* Pods-DoorDashDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236A2B3B973370E0D51D671D09BBA699 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemo" */;
+			buildPhases = (
+				40E1D5A68C2905B9DB32B96C6525F29F /* Headers */,
+				3889BABDFBDA9172588B17E590E04F9E /* Sources */,
+				82C057140602FFC4CDC79ACAAA0FBBEA /* Frameworks */,
+				F96FFE544172E4886B25305C96E34280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CA9F9AFCA931CD53CBFB689E959474 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoorDashDemo";
+			productName = "Pods-DoorDashDemo";
+			productReference = 3E99E5C9D3776E20BE208410468CC986 /* Pods_DoorDashDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AEEFA136E00AD608DECCDB827E8A7320 /* Kingfisher */ = {
@@ -459,8 +459,8 @@
 			projectRoot = "";
 			targets = (
 				AEEFA136E00AD608DECCDB827E8A7320 /* Kingfisher */,
-				4B1925466454771C60808E479D76DEEA /* Pods-DoorDashDemo */,
-				70FE69D778493034DCD577C7285F89E0 /* Pods-DoorDashDemoTests */,
+				7FFD1A1A1E9F6F9244A48B945966CFF9 /* Pods-DoorDashDemo */,
+				0FECF8076D5CB3193457FBB7FBF88D21 /* Pods-DoorDashDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -473,14 +473,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AB481E3714846728EB9E2CDFB4CDB32 /* Resources */ = {
+		A799AD5978297662B24A6023DABE5D25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC0F5F04051FB4BF1662EAC449FC2D4C /* Resources */ = {
+		F96FFE544172E4886B25305C96E34280 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,41 +541,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56BF9B117A5D172B68093ED9091B9C14 /* Sources */ = {
+		3889BABDFBDA9172588B17E590E04F9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				622D74912424023872C0C89BF0178DEC /* Pods-DoorDashDemo-dummy.m in Sources */,
+				237ECC2F631E2AF3DBCD470938682F96 /* Pods-DoorDashDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B09CE46B2B6B32C956B0CDFA6D63CC05 /* Sources */ = {
+		D625975F5FEA716DF0357E1B5FDD5DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8385F7ECC8D50FB5D6F2CC61A3067E27 /* Pods-DoorDashDemoTests-dummy.m in Sources */,
+				2C9055396FF0DE3E2474CED3086700F8 /* Pods-DoorDashDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B0D8B3A0FA2E9A7D2EF0EE097F5B1E5 /* PBXTargetDependency */ = {
+		11CB814964CCC63033EF1FBD9D35EE2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DoorDashDemo";
-			target = 4B1925466454771C60808E479D76DEEA /* Pods-DoorDashDemo */;
-			targetProxy = 542C4C92602B5D830D564796981EFA74 /* PBXContainerItemProxy */;
+			target = 7FFD1A1A1E9F6F9244A48B945966CFF9 /* Pods-DoorDashDemo */;
+			targetProxy = 3D797E2E0E18F1DAF87EF3B9A71430FB /* PBXContainerItemProxy */;
 		};
-		BAC7AA795740B8E8C55731DC36EF5578 /* PBXTargetDependency */ = {
+		14CA9F9AFCA931CD53CBFB689E959474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = AEEFA136E00AD608DECCDB827E8A7320 /* Kingfisher */;
-			targetProxy = C661FFF4FF4C7B2645A69AAC15134FB2 /* PBXContainerItemProxy */;
+			targetProxy = FD20F45C137171347C190019A8E89FBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19EDD51483312F7ADDCCECFE2F247BBB /* Debug */ = {
+		1B7137F455667E1F89A33B6D4AD7E78B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82259CCC5263F8B77D3BB967213D0B08 /* Pods-DoorDashDemoTests.debug.xcconfig */;
 			buildSettings = {
@@ -613,7 +613,7 @@
 			};
 			name = Debug;
 		};
-		1BB8F3508FA3FEBA8F92DA09323C2370 /* Debug */ = {
+		7AD530B0110BD1D741C05408B2E2CBCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C7297046997A582E12C5D4805A2430E /* Pods-DoorDashDemo.debug.xcconfig */;
 			buildSettings = {
@@ -650,45 +650,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		298D16FAA6A9AB4E4BD047F3FEECDC17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36D5C9A42168AC3FCB1CD918483416A /* Pods-DoorDashDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DoorDashDemoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DoorDashDemoTests/Pods-DoorDashDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -854,9 +815,9 @@
 			};
 			name = Debug;
 		};
-		E8F64751D310052FCA29F35C2E204F76 /* Release */ = {
+		E7A57B9A0ECD635729223CB3D50D35C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6B17D68F108D9694A32F6CF0B7B2E15 /* Pods-DoorDashDemo.release.xcconfig */;
+			baseConfigurationReference = A36D5C9A42168AC3FCB1CD918483416A /* Pods-DoorDashDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -869,7 +830,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DoorDashDemo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDashDemoTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -878,7 +839,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DoorDashDemo/Pods-DoorDashDemo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDashDemoTests/Pods-DoorDashDemoTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -930,9 +891,57 @@
 			};
 			name = Release;
 		};
+		FFBEA3BEAECAD549E495DEB9A48D728C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B17D68F108D9694A32F6CF0B7B2E15 /* Pods-DoorDashDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoorDashDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoorDashDemo/Pods-DoorDashDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		236A2B3B973370E0D51D671D09BBA699 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD530B0110BD1D741C05408B2E2CBCA /* Debug */,
+				FFBEA3BEAECAD549E495DEB9A48D728C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -942,11 +951,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		360D2042E846F5B48533777EC1091621 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemoTests" */ = {
+		A7CA8A8DA980B95199E06330A3366910 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19EDD51483312F7ADDCCECFE2F247BBB /* Debug */,
-				298D16FAA6A9AB4E4BD047F3FEECDC17 /* Release */,
+				1B7137F455667E1F89A33B6D4AD7E78B /* Debug */,
+				E7A57B9A0ECD635729223CB3D50D35C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -956,15 +965,6 @@
 			buildConfigurations = (
 				C6FEACB9FAA61826331C8728F8D8AE4A /* Debug */,
 				EEB5C7F18C26B562DAEE515BFE9802B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0220FB56EC996F4D0F5A2FA6AA231C7 /* Build configuration list for PBXNativeTarget "Pods-DoorDashDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BB8F3508FA3FEBA8F92DA09323C2370 /* Debug */,
-				E8F64751D310052FCA29F35C2E204F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
