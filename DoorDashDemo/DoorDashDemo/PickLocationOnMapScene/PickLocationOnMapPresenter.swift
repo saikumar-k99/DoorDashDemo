@@ -27,7 +27,7 @@ class PickLocationOnMapPresenter: PickLocationOnMapPresentationLogic {
 			guard let responseModel = response as? [GetRestaurantsListResponseModel] else {
 				return
 			}
-			
+		
 			viewController?.getRestaurantsListComplete(response: responseModel)
 			
 		case is Error:

@@ -12,4 +12,10 @@
 
 import UIKit
 
-
+//struct restaurantCellViewModel {
+//	var restaurantName: String?
+//	var cuisine: String?
+//	var deliveryFee: String?
+//	var estimatedTime: String?
+//	var coverImageURLString: String?
+//}
