@@ -30,6 +30,7 @@
 		E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C221D34C3100928D60 /* LocationManager.swift */; };
 		E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C421D352B800928D60 /* GlobalConstatns.swift */; };
 		E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */; };
+		E65E506C21D4332600F505CC /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65E506B21D4332600F505CC /* HomeTabBarController.swift */; };
 		E697A95221D3FEBD001C67EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95121D3FEBD001C67EE /* NetworkManager.swift */; };
 		E697A95421D3FF56001C67EE /* RestAPICallerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95321D3FF56001C67EE /* RestAPICallerService.swift */; };
 		E697A95621D3FFE1001C67EE /* SharedInstanceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E697A95521D3FFE1001C67EE /* SharedInstanceInterface.swift */; };
@@ -74,6 +75,7 @@
 		E659B0C221D34C3100928D60 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E659B0C421D352B800928D60 /* GlobalConstatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstatns.swift; sourceTree = "<group>"; };
 		E659B0C921D38A7800928D60 /* CLPlacemark+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extensions.swift"; sourceTree = "<group>"; };
+		E65E506B21D4332600F505CC /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		E697A95121D3FEBD001C67EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E697A95321D3FF56001C67EE /* RestAPICallerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPICallerService.swift; sourceTree = "<group>"; };
 		E697A95521D3FFE1001C67EE /* SharedInstanceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedInstanceInterface.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				E659B0AE21D2FC8500928D60 /* RestarantsListWorker.swift */,
 				E659B0B021D2FC8500928D60 /* RestarantsListModels.swift */,
 				E659B0BF21D3400B00928D60 /* RestaurantsList.storyboard */,
+				E65E506B21D4332600F505CC /* HomeTabBarController.swift */,
 			);
 			path = RestaurantsListScene;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				E659B0B421D2FC8500928D60 /* RestarantsListWorker.swift in Sources */,
 				E659B0B821D2FC8500928D60 /* RestarantsListInteractor.swift in Sources */,
+				E65E506C21D4332600F505CC /* HomeTabBarController.swift in Sources */,
 				E659B0C321D34C3100928D60 /* LocationManager.swift in Sources */,
 				E659B0B521D2FC8500928D60 /* RestarantsListRouter.swift in Sources */,
 				E697A95621D3FFE1001C67EE /* SharedInstanceInterface.swift in Sources */,

@@ -23,9 +23,13 @@ class PickLocationOnMapRouter: NSObject, PickLocationOnMapRoutingLogic {
   // MARK: Routing
 	
 	func navigateToRestaurantsListScene(response: [GetRestaurantsListResponseModel]) {
-		let destination = RestarantsListViewController.getInstance()
-		destination.dataSource = response
-
+		let destination = HomeTabBarController.getInstance()
+		guard let targetVC = destination.getViewController(id: "RestaurantsList") as? RestarantsListViewController else {
+			return
+		}
+		
+		targetVC.dataSource = response
+		
 		self.viewController?.navigationController?.pushViewController(destination, animated: true)
 	}
 }

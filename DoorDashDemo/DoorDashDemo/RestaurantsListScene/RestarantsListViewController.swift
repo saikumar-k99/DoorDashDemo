@@ -61,4 +61,11 @@ class RestarantsListViewController: UIViewController, RestarantsListDisplayLogic
     super.viewDidLoad()
   }
 
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(true)
+		self.title = "DoorDash"
+		self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.red]
+		
+		self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav-address")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: nil)
+	}
 }
