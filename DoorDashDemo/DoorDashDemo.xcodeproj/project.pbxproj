@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9AFC74837AD1E2B9FAE8B554 /* Pods_DoorDashDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6E9F90A8856245804B5300 /* Pods_DoorDashDemo.framework */; };
 		B6C33D00EE6A90F0C69DE944 /* Pods_DoorDashDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8195845A10AA717925C76F0 /* Pods_DoorDashDemoTests.framework */; };
+		E619043122528A41000EB1F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619043022528A41000EB1F9 /* LoginViewController.swift */; };
+		E619043322528D78000EB1F9 /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619043222528D78000EB1F9 /* LoginWorker.swift */; };
+		E619043522528E2F000EB1F9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619043422528E2F000EB1F9 /* LoginModel.swift */; };
 		E6522EDE21D4727E00EC1E08 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6522EDD21D4727E00EC1E08 /* Kingfisher.framework */; };
 		E659B07F21D2FAA400928D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B07E21D2FAA400928D60 /* AppDelegate.swift */; };
 		E659B08621D2FAA500928D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E659B08521D2FAA500928D60 /* Assets.xcassets */; };
@@ -55,6 +58,9 @@
 		09E97DC89066E223CB45B4E5 /* Pods-DoorDashDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDashDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDashDemoTests/Pods-DoorDashDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		1996AC76A8E021BA0F3C8CC0 /* Pods-DoorDashDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDashDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDashDemoTests/Pods-DoorDashDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91698E1B3732EF87DA6292BB /* Pods-DoorDashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorDashDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoorDashDemo/Pods-DoorDashDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E619043022528A41000EB1F9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E619043222528D78000EB1F9 /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		E619043422528E2F000EB1F9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		E6522EDD21D4727E00EC1E08 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E659B07B21D2FAA400928D60 /* DoorDashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorDashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E659B07E21D2FAA400928D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E619042F22528A0A000EB1F9 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E619043022528A41000EB1F9 /* LoginViewController.swift */,
+				E619043222528D78000EB1F9 /* LoginWorker.swift */,
+				E619043422528E2F000EB1F9 /* LoginModel.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
 		E659B07221D2FAA400928D60 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +165,7 @@
 		E659B07D21D2FAA400928D60 /* DoorDashDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E619042F22528A0A000EB1F9 /* LoginScreen */,
 				E659B0C121D34C1B00928D60 /* Shared */,
 				E659B09E21D2FB8600928D60 /* PickLocationOnMapScene */,
 				E659B09F21D2FBBB00928D60 /* RestaurantsListScene */,
@@ -433,13 +450,16 @@
 				E659B0A921D2FC5200928D60 /* PickLocationOnMapRouter.swift in Sources */,
 				E659B0A821D2FC5200928D60 /* PickLocationOnMapWorker.swift in Sources */,
 				E659B0B621D2FC8500928D60 /* RestarantsListModels.swift in Sources */,
+				E619043122528A41000EB1F9 /* LoginViewController.swift in Sources */,
 				E659B0B321D2FC8500928D60 /* RestarantsListPresenter.swift in Sources */,
 				E697A95821D408FB001C67EE /* RestAPICallerServiceExtension.swift in Sources */,
+				E619043322528D78000EB1F9 /* LoginWorker.swift in Sources */,
 				E659B0B721D2FC8500928D60 /* RestarantsListViewController.swift in Sources */,
 				E659B0A721D2FC5200928D60 /* PickLocationOnMapPresenter.swift in Sources */,
 				E659B0CA21D38A7800928D60 /* CLPlacemark+Extensions.swift in Sources */,
 				E659B0AB21D2FC5200928D60 /* PickLocationOnMapViewController.swift in Sources */,
 				E697A95421D3FF56001C67EE /* RestAPICallerService.swift in Sources */,
+				E619043522528E2F000EB1F9 /* LoginModel.swift in Sources */,
 				E659B07F21D2FAA400928D60 /* AppDelegate.swift in Sources */,
 				E659B0C521D352B800928D60 /* GlobalConstatns.swift in Sources */,
 				E65E506E21D450C600F505CC /* RestaurantTableViewCell.swift in Sources */,

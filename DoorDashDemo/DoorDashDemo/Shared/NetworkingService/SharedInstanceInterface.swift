@@ -15,4 +15,8 @@ protocol SharedInstanceInterface {
 	typealias RestAPIAdditionalHeaderValue = (headerField: String, headerValue: String)
 	
 	func getRestaurantsListForLocation(requestModel: GetRestaurantsListRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: GetRestaurantsListResponseModel)
+	
+	func authenticateUser(requestModel: LoginRequestModel ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: LoginResposeModel)
+	
+	func validateUser(requestModel: authRequest ,successCompletion: @escaping RestAPICallerService.RestAPISuccessCompletionBlock, errorCompletion: @escaping RestAPICallerService.RestAPIErrorCompletionBlock, responseModel: authResponse)
 }

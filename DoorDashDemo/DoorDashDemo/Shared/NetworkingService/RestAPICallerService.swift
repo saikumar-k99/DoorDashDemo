@@ -32,7 +32,7 @@ class RestAPICallerService: RestAPICallerServiceBase {
 										headerParmas: [RestAPIAdditionalHeaderValue]? = nil,
 										responseModel: T) {
 		
-		let url = URL(string: baseURL + apiName)!
+		let url = URL(string: (baseURL + apiName))!
 		
 		var request = URLRequest(url: url)
 		request.httpMethod = httpMethod

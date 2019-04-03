@@ -9,9 +9,7 @@
 import UIKit
 
 class HomeTabBarController: UITabBarController {
-	
-	
-	
+
 	static func getInstance() -> HomeTabBarController {
 		let storyBoard = UIStoryboard(name: "RestaurantsList", bundle: nil)
 		let vc = storyBoard.instantiateViewController(withIdentifier: "HomeTabBarController") as! HomeTabBarController
